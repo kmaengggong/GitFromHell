@@ -12,6 +12,8 @@
 -git restore A: A 파일 수정된 것을 되돌림 
 -git restore --staged A: A 파일 add된 것을 내림 
 -git reset HEAD^: 최신 커밋을 되돌림 
+-git reset --hard HASH: A 버전 커밋으로 되돌림
+-git revert HASH: A 버전 커밋을 내용을 지우지 않고 되돌림
 
 # 단계 
 -작업트리: 작업 디렉토리
