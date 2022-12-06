@@ -1,0 +1,25 @@
+<@>  // [22.12.06]
+
+
+# 명령어
+-git init
+-git add A
+-git commit -m "" or git commit -am ""
+-git status
+-git log
+-git log --stat: 더 자세히 보여줌
+-git diff
+-git restore A: A 파일 수정된 것을 되돌림 
+-git restore --staged A: A 파일 add된 것을 내림 
+-git reset HEAD^: 최신 커밋을 되돌림 
+
+# 단계 
+-작업트리: 작업 디렉토리
+-스테이지: 올리기 전 대기하는 곳
+-저장소: 깃허브
+
+# 상태
+-untracked: 갓 만들어진 파일
+-unmodified: 한 번 이상 add한 파일
+-modified: add한 파일 
+-staged: commit한 파일 
